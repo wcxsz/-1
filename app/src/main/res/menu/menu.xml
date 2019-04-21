@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/message">
+        <item android:title="资讯"></item>
+        <item android:id="@+id/daily"
+            android:title="@string/daily"
+            android:icon="@mipmap/ic_drawer_zhihu"></item>
+        <item android:id="@+id/wechat"
+            android:title="@string/wechat"
+            android:icon="@mipmap/ic_drawer_wechat"></item>
+        <item android:id="@+id/gank"
+            android:title="@string/gank"
+            android:icon="@mipmap/ic_drawer_gank"></item>
+        <item android:id="@+id/gold"
+            android:title="@string/gold"
+            android:icon="@mipmap/ic_drawer_gold"></item>
+        <item android:id="@+id/vtex"
+            android:title="@string/vtex"
+            android:icon="@mipmap/ic_drawer_vtex"></item>
+    </group>
+    <group android:id="@+id/option">
+        <item android:title="选项"></item>
+        <item android:id="@+id/like"
+            android:title="@string/like"
+            android:icon="@mipmap/ic_drawer_like"></item>
+        <item android:id="@+id/setting"
+            android:title="@string/setting"
+            android:icon="@mipmap/ic_drawer_setting"></item>
+        <item android:id="@+id/about"
+            android:title="@string/about"
+            android:icon="@mipmap/ic_drawer_about"></item>
+    </group>
+</menu>
